@@ -1,0 +1,40 @@
+.done {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-block: 20px;
+}
+
+.list2 {
+  /* background-color: red; */
+  width: 150px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  right: -950px;
+  bottom: 100px;
+  justify-content: left;
+  flex-direction: column;
+}
+body {
+  background-color: aquamarine;
+}
+.btnn {
+  position: relative;
+  left: 710px;
+  cursor: pointer;
+}
+
+.list {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  left: 450px;
+  justify-content: right;
+  flex-direction: column;
+}
