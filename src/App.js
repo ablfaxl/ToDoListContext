@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { Link, Route, Routes, BrowserRouter } from "react-router-dom";
 import DbProvider from "./components/contex";
 import HomePage from "./components/HomePage";
@@ -9,7 +7,7 @@ function App() {
     <DbProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<HomePage />}></Route>
+          <Route path="" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </DbProvider>
